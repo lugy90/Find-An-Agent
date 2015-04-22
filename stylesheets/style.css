@@ -88,10 +88,16 @@ header ul {
 header ul li {
   float: left;
   margin: 0 .5em;
-  padding: 1em;
+  padding: .5em 1em;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+/* line 32, ../sass/style.scss */
+header ul li:last-child {
+  border: 1px solid white;
 }
 
-/* line 34, ../sass/style.scss */
+/* line 41, ../sass/style.scss */
 .hero {
   max-width: 100em;
   margin: 0 auto;
@@ -99,42 +105,42 @@ header ul li {
   background-size: cover;
   color: white;
 }
-/* line 38, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
 .hero header {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 39, ../sass/style.scss */
+/* line 46, ../sass/style.scss */
 .hero header img {
   width: 8em;
   height: 2em;
   float: left;
 }
-/* line 44, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 .hero header ul {
   float: right;
 }
-/* line 47, ../sass/style.scss */
+/* line 54, ../sass/style.scss */
 .hero header ul li {
   float: left;
   margin: 0 .5em;
   padding: 1em;
 }
-/* line 56, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 .hero h1 {
   font-size: 4em;
   padding: 1em 0 .5em 0;
 }
-/* line 61, ../sass/style.scss */
+/* line 68, ../sass/style.scss */
 .hero h2 {
   font-size: 2em;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 form {
   padding: 2em 0 4em 0;
 }
-/* line 73, ../sass/style.scss */
+/* line 80, ../sass/style.scss */
 form input[type="text"] {
   padding: 1em;
   border: 0;
@@ -143,7 +149,7 @@ form input[type="text"] {
   background: #efefef;
   opacity: .3;
 }
-/* line 82, ../sass/style.scss */
+/* line 89, ../sass/style.scss */
 form input[type="button"] {
   color: white;
   padding: 1em;

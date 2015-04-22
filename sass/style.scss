@@ -25,7 +25,14 @@ header {
         li {
             float: left;
             margin: 0 .5em;
-            padding: 1em;
+            padding: .5em 1em;
+            border: 1px solid transparent;
+            border-radius: 2px;
+            
+            &:last-child {
+                    border: 1px solid $highlight-text-color;
+                }
+
         }
     }
     @include clearfix;
@@ -87,4 +94,5 @@ form {
         border-radius: 0 2px 2px 0;
         background-color: lightgreen;
     }
+
 }
