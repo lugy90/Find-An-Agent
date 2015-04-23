@@ -142,3 +142,39 @@ body {
   background-color: lightgreen;
   text-transform: uppercase;
 }
+
+/* line 87, ../sass/style.scss */
+.numbers {
+  width: 80%;
+  margin: 0 auto;
+}
+/* line 91, ../sass/style.scss */
+.numbers ul {
+  position: relative;
+  top: -1em;
+  background: #efefef;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 96, ../sass/style.scss */
+.numbers ul li {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  border-top: 1px solid #D9DADA;
+  border-bottom: 1px solid #D9DADA;
+  border-left: 1px solid #D9DADA;
+}
+/* line 104, ../sass/style.scss */
+.numbers ul li:last-child {
+  border-right: 1px solid #D9DADA;
+}
+/* line 108, ../sass/style.scss */
+.numbers ul li h2 {
+  font-size: 2em;
+  padding: 1em 0;
+}
+/* line 113, ../sass/style.scss */
+.numbers ul li h3 {
+  padding: 0 0 2em 0;
+}
