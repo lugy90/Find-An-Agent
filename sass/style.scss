@@ -1,12 +1,26 @@
 @import "compass";
 @import "compass/layout";
 @import "compass/reset";
+@import "icomoon";
+
+@font-face {
+    font-family: 'icomoon';
+    src:url('../icomoon/fonts/icomoon.eot?200299');
+    src:url('../icomoon/fonts/icomoon.eot?#iefix200299') format('embedded-opentype'),
+        url('../icomoon/fonts/icomoon.woff?200299') format('woff'),
+        url('../icomoon/fonts/icomoon.ttf?200299') format('truetype'),
+        url('../icomoon/fonts/icomoon.svg?200299#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 $bg-color: #efefef;
 $text-color: #4f4f4f;
 $secondy-text-color: #D9DADA;
 $highlight-text-color: white;
 $button-color: #6cdcac;
+
+
 
 body {
     font-size: 62.5%;
@@ -87,7 +101,7 @@ body {
 .numbers{
     width: 80%;
     margin: 0 auto;
-    
+
     ul {
             position: relative;
             top: -1em;
