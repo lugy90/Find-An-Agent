@@ -67,9 +67,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 body {
   font-size: 62.5%;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
-/* line 16, ../sass/style.scss */
+/* line 17, ../sass/style.scss */
 .hero {
   max-width: 100em;
   margin: 0 auto;
@@ -77,22 +78,24 @@ body {
   background-size: cover;
   color: white;
 }
-/* line 20, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 .hero header {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 21, ../sass/style.scss */
+/* line 22, ../sass/style.scss */
 .hero header img {
   width: 8em;
   height: 2em;
   float: left;
+  margin-left: 3em;
 }
-/* line 26, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 .hero header ul {
   float: right;
+  margin-right: 3em;
 }
-/* line 29, ../sass/style.scss */
+/* line 32, ../sass/style.scss */
 .hero header ul li {
   float: left;
   margin: 1em .5em;
@@ -100,24 +103,25 @@ body {
   border: 1px solid transparent;
   border-radius: 2px;
 }
-/* line 36, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 .hero header ul li:last-child {
   border: 1px solid white;
 }
-/* line 44, ../sass/style.scss */
+/* line 47, ../sass/style.scss */
 .hero h1 {
   font-size: 4em;
-  padding: 1em 0 .5em 0;
+  padding: 5em 0 1.2em 0;
 }
-/* line 49, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 .hero h2 {
   font-size: 2em;
+  padding-bottom: .7em;
 }
-/* line 53, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
 .hero form {
-  padding: 2em 0 4em 0;
+  padding: 2em 0 9em 0;
 }
-/* line 56, ../sass/style.scss */
+/* line 64, ../sass/style.scss */
 .hero form input[type="text"] {
   padding: 1em;
   border: 0;
@@ -126,7 +130,7 @@ body {
   background: #efefef;
   opacity: .3;
 }
-/* line 65, ../sass/style.scss */
+/* line 73, ../sass/style.scss */
 .hero form input[type="button"] {
   color: white;
   padding: 1em;

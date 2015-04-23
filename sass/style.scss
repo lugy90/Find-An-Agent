@@ -11,6 +11,7 @@ $button-color: #6cdcac;
 body {
     font-size: 62.5%;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .hero {
@@ -22,9 +23,11 @@ body {
             width: 8em;
             height: 2em;
             float: left;
+            margin-left: 3em;
         }
         ul {
             float: right;
+            margin-right: 3em;
 
             li {
                 float: left;
@@ -43,15 +46,20 @@ body {
 
     h1 {
         font-size: 4em;
-        padding: 1em 0 .5em 0;
+        padding: 5em 0 1.2em 0;
     }
 
     h2 {
         font-size: 2em;
+        padding-bottom: .7em;
     }
+    background: url('../images/find-an-agent-hero.png');
+    background-size: cover;
+
+    color: $highlight-text-color;
 
     form {
-        padding: 2em 0 4em 0;
+        padding: 2em 0 9em 0;
 
         input[type="text"] {
             padding: 1em;
@@ -70,12 +78,7 @@ body {
             border-radius: 0 2px 2px 0;
             background-color: lightgreen;
         }
-
     }
-
-    background: url('../images/find-an-agent-hero.png');
-    background-size: cover;
-    color: $highlight-text-color;
 }
 
 
