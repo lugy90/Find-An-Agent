@@ -70,35 +70,6 @@ body {
 }
 
 /* line 16, ../sass/style.scss */
-header {
-  padding: .5em;
-  overflow: hidden;
-  *zoom: 1;
-}
-/* line 18, ../sass/style.scss */
-header img {
-  width: 8em;
-  height: 2em;
-  float: left;
-}
-/* line 23, ../sass/style.scss */
-header ul {
-  float: right;
-}
-/* line 26, ../sass/style.scss */
-header ul li {
-  float: left;
-  margin: 0 .5em;
-  padding: .5em 1em;
-  border: 1px solid transparent;
-  border-radius: 2px;
-}
-/* line 33, ../sass/style.scss */
-header ul li:last-child {
-  border: 1px solid white;
-}
-
-/* line 42, ../sass/style.scss */
 .hero {
   max-width: 100em;
   margin: 0 auto;
@@ -106,43 +77,48 @@ header ul li:last-child {
   background-size: cover;
   color: white;
 }
-/* line 46, ../sass/style.scss */
+/* line 20, ../sass/style.scss */
 .hero header {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 47, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 .hero header img {
   width: 8em;
   height: 2em;
   float: left;
 }
-/* line 52, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 .hero header ul {
   float: right;
 }
-/* line 55, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 .hero header ul li {
   float: left;
-  margin: 0 .5em;
-  padding: 1em;
+  margin: 1em .5em;
+  padding: .5em 1em;
+  border: 1px solid transparent;
+  border-radius: 2px;
 }
-/* line 64, ../sass/style.scss */
+/* line 36, ../sass/style.scss */
+.hero header ul li:last-child {
+  border: 1px solid white;
+}
+/* line 44, ../sass/style.scss */
 .hero h1 {
   font-size: 4em;
   padding: 1em 0 .5em 0;
 }
-/* line 69, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 .hero h2 {
   font-size: 2em;
 }
-
-/* line 78, ../sass/style.scss */
-form {
+/* line 53, ../sass/style.scss */
+.hero form {
   padding: 2em 0 4em 0;
 }
-/* line 81, ../sass/style.scss */
-form input[type="text"] {
+/* line 56, ../sass/style.scss */
+.hero form input[type="text"] {
   padding: 1em;
   border: 0;
   width: 18em;
@@ -150,8 +126,8 @@ form input[type="text"] {
   background: #efefef;
   opacity: .3;
 }
-/* line 90, ../sass/style.scss */
-form input[type="button"] {
+/* line 65, ../sass/style.scss */
+.hero form input[type="button"] {
   color: white;
   padding: 1em;
   border: 0;

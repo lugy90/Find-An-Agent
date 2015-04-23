@@ -13,32 +13,6 @@ body {
     text-align: center;
 }
 
-header {
-	padding: .5em;
-    img {
-        width: 8em;
-        height: 2em;
-        float: left;
-    }
-    ul {
-        float: right;
-
-        li {
-            float: left;
-            margin: 0 .5em;
-            padding: .5em 1em;
-            border: 1px solid transparent;
-            border-radius: 2px;
-
-            &:last-child {
-                    border: 1px solid $highlight-text-color;
-                }
-
-        }
-    }
-    @include clearfix;
-}
-
 .hero {
     max-width: 100em;
     margin: 0 auto;
@@ -54,8 +28,14 @@ header {
 
             li {
                 float: left;
-                margin: 0 .5em;
-                padding: 1em;
+                margin: 1em .5em;
+                padding: .5em 1em;
+                border: 1px solid transparent;
+                border-radius: 2px;
+
+                &:last-child {
+                    border: 1px solid $highlight-text-color;
+                }
             }
         }
         @include clearfix;
@@ -70,30 +50,32 @@ header {
         font-size: 2em;
     }
 
+    form {
+        padding: 2em 0 4em 0;
+
+        input[type="text"] {
+            padding: 1em;
+            border: 0;
+            width: 18em;
+            border-radius: 2px 0 0 2px;
+            background: $bg-color;
+            opacity: .3;
+        }
+
+        input[type="button"] {
+            color: $highlight-text-color;
+            padding: 1em;
+            border: 0;
+            width: 6em;
+            border-radius: 0 2px 2px 0;
+            background-color: lightgreen;
+        }
+
+    }
+
     background: url('../images/find-an-agent-hero.png');
     background-size: cover;
     color: $highlight-text-color;
 }
 
-form {
-    padding: 2em 0 4em 0;
 
-    input[type="text"] {
-        padding: 1em;
-        border: 0;
-        width: 18em;
-        border-radius: 2px 0 0 2px;
-        background: $bg-color;
-        opacity: .3;
-    }
-
-    input[type="button"] {
-        color: $highlight-text-color;
-        padding: 1em;
-        border: 0;
-        width: 6em;
-        border-radius: 0 2px 2px 0;
-        background-color: lightgreen;
-    }
-
-}
