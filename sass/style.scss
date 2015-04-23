@@ -46,12 +46,14 @@ body {
 
     h1 {
         font-size: 4em;
-        padding: 5em 0 1.2em 0;
+        padding: 5em 0 1em 0;
+        font-weight: bold;
     }
 
     h2 {
         font-size: 2em;
         padding-bottom: .7em;
+        color: #d9dada;
     }
     background: url('../images/find-an-agent-hero.png');
     background-size: cover;
@@ -77,6 +79,7 @@ body {
             width: 6em;
             border-radius: 0 2px 2px 0;
             background-color: lightgreen;
+            text-transform: uppercase;
         }
     }
 }
