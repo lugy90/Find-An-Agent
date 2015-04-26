@@ -106,14 +106,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: normal;
   font-style: normal;
 }
-/* line 25, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 body {
   font-size: 62.5%;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 31, ../sass/style.scss */
+/* line 32, ../sass/style.scss */
 .hero {
   max-width: 100em;
   margin: 0 auto;
@@ -121,24 +121,24 @@ body {
   background-size: cover;
   color: white;
 }
-/* line 35, ../sass/style.scss */
+/* line 36, ../sass/style.scss */
 .hero header {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 36, ../sass/style.scss */
+/* line 37, ../sass/style.scss */
 .hero header img {
   width: 8em;
   height: 2em;
   float: left;
   margin-left: 3em;
 }
-/* line 42, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 .hero header ul {
   float: right;
   margin-right: 3em;
 }
-/* line 46, ../sass/style.scss */
+/* line 47, ../sass/style.scss */
 .hero header ul li {
   float: left;
   margin: 1em .5em;
@@ -146,27 +146,27 @@ body {
   border: 1px solid transparent;
   border-radius: 2px;
 }
-/* line 53, ../sass/style.scss */
+/* line 54, ../sass/style.scss */
 .hero header ul li:last-child {
   border: 1px solid white;
 }
-/* line 61, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 .hero h1 {
   font-size: 4em;
   padding: 5em 0 1em 0;
   font-weight: bold;
 }
-/* line 67, ../sass/style.scss */
+/* line 68, ../sass/style.scss */
 .hero h2 {
   font-size: 2em;
   padding-bottom: .7em;
   color: #d9dada;
 }
-/* line 77, ../sass/style.scss */
+/* line 78, ../sass/style.scss */
 .hero form {
   padding: 2em 0 9em 0;
 }
-/* line 80, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 .hero form input[type="text"] {
   padding: 1em;
   border: 0;
@@ -175,7 +175,7 @@ body {
   background: #efefef;
   opacity: .3;
 }
-/* line 89, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 .hero form input[type="button"] {
   color: white;
   padding: 1em;
@@ -186,12 +186,12 @@ body {
   text-transform: uppercase;
 }
 
-/* line 101, ../sass/style.scss */
+/* line 102, ../sass/style.scss */
 .numbers {
   width: 80%;
   margin: 0 auto;
 }
-/* line 105, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 .numbers ul {
   position: relative;
   top: -1em;
@@ -199,7 +199,7 @@ body {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 110, ../sass/style.scss */
+/* line 111, ../sass/style.scss */
 .numbers ul li {
   float: left;
   width: 25%;
@@ -208,16 +208,101 @@ body {
   border-bottom: 1px solid #D9DADA;
   border-left: 1px solid #D9DADA;
 }
-/* line 118, ../sass/style.scss */
+/* line 119, ../sass/style.scss */
 .numbers ul li:last-child {
   border-right: 1px solid #D9DADA;
 }
-/* line 122, ../sass/style.scss */
+/* line 123, ../sass/style.scss */
 .numbers ul li h2 {
   font-size: 2em;
   padding: 1em 0;
 }
-/* line 127, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 .numbers ul li h3 {
   padding: 0 0 2em 0;
+}
+
+/* line 140, ../sass/style.scss */
+.how-it-works h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+  padding: 1em 0;
+}
+/* line 145, ../sass/style.scss */
+.how-it-works h2:after {
+  display: block;
+  content: "";
+  background-color: #C0C0C0;
+  width: 2em;
+  height: .1em;
+  margin: .4em auto;
+}
+/* line 155, ../sass/style.scss */
+.how-it-works li {
+  float: left;
+  width: 33.33%;
+  position: relative;
+}
+/* line 160, ../sass/style.scss */
+.how-it-works li:before {
+  display: block;
+  content: "";
+  background: #C0C0C0;
+  width: 85%;
+  height: 1px;
+  position: absolute;
+  top: 3.2em;
+  left: 53%;
+  margin: 0 2em;
+}
+/* line 172, ../sass/style.scss */
+.how-it-works li:last-child:before {
+  display: none;
+}
+/* line 176, ../sass/style.scss */
+.how-it-works li .number {
+  font-size: 2em;
+  color: #C0C0C0;
+  border: 1px solid #C0C0C0;
+  width: 1em;
+  height: 1em;
+  display: block;
+  margin: 1em auto 2em auto;
+  padding: .4em;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+/* line 189, ../sass/style.scss */
+.how-it-works li p {
+  white-space: pre-line;
+}
+/* line 194, ../sass/style.scss */
+.how-it-works li h3 {
+  padding: .5em 0;
+  font-weight: 800;
+  font-size: 1.5em;
+}
+/* line 200, ../sass/style.scss */
+.how-it-works li i {
+  font-size: 3.6em;
+}
+/* line 204, ../sass/style.scss */
+.how-it-works li .icon-list {
+  color: #ECA95A;
+}
+/* line 208, ../sass/style.scss */
+.how-it-works li .icon-pencil {
+  color: #AC9CD2;
+}
+/* line 212, ../sass/style.scss */
+.how-it-works li .icon-users {
+  color: #4D99CB;
+}
+
+@media (max-width: 1105px) {
+  /* line 221, ../sass/style.scss */
+  .how-it-works ul li:before {
+    width: 70%;
+  }
 }
